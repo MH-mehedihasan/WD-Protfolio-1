@@ -1,0 +1,195 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* weight auto 400px thaka
+  regular=400px ,bold =700 */
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 5px 50px 50px;
+    
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+/* nav title text color */
+.title-color{
+    color:#FD6E0A;
+}
+
+nav ul li{
+    list-style:none  ;
+    margin-right: 100px;  
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* most font color use this project  */
+.dark-2{
+    color: #474747 ;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+}
+.button-style{
+   background-color:#FD6E0A;
+   font-weight: bold;
+
+   font-size: 20px;
+   color:white;
+
+   padding: 14px 25px;
+   border-radius: 5px;
+   border:none;
+}
+/* same color as  dark-2 */
+.banner-h4{
+    color: #474747 ;
+   font-size: larger;
+    font-weight: 600px;
+
+}
+.banner-h1{
+    font-size:35px ;
+    font-weight: bold;
+
+}
+.paragraph{
+    max-width: 450px;
+}
+.banner-profile-pic{
+    width: 400px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px 0px 170px;
+}
+.banner-content{
+    max-width: 200px;
+}
+.developer-pic{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-position:top left,bottom right;
+    background-repeat: no-repeat;
+}
+.about-me{
+    border-radius: 10px;
+    padding: 30px 60px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.section-title-h3{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.section-description{
+    font-size: 20px;
+    font-weight: normal;
+    color:#757575;
+
+}
+.second-background{
+    background-color:#FFF8F3;
+}
+main{
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.item-description{
+    font-weight: bold;
+}
+.about-item-list{
+    display: flex;
+    justify-content: space-around;
+}
+.text-align{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px  rgb(202, 194, 194);
+}
+main section{
+    margin: 50px 50px;
+}
+/* video 5.7 */
+/* resume section style */
+
+.resume-container{
+    display:flex;
+    gap:24px;
+}
+.experience-description,.experience-sub-title{
+    color:#757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+
+}
+
+resume.hr{
+    margin:30px 0px;
+}
+.button-align{
+    align-items: center;
+}
+.download-cv-button{
+    margin:50px;
+}
+/* 5.8 video */
+/* footer-style */
+footer{
+    display: flex;
+    gap:100px;
+    padding:130px 230px; }
+
+
+footer input [type="text"],footer input [type="email"]{
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(234, 226, 226);
+    width: 100%;
+    display: block;
+   padding: 10px 20px;
+}
+footer input[type="text"],footer input[type=email], footer textarea{
+    height:20px;
+    width: 150%;
+    border-radius: 5px;
+   
+    background-color: rgb(255, 255, 255);
+    display: block;
+   padding: 10px 20px;
+   border: none;
+   margin-block:10px ;
+   
+}
